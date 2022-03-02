@@ -1635,6 +1635,7 @@ export default async function getBaseWebpackConfig(
     reactRemoveProperties: config.compiler?.reactRemoveProperties,
     styledComponents: config.compiler?.styledComponents,
     relay: config.compiler?.relay,
+    emotion: config.compiler?.emotion,
   })
 
   const cache: any = {
